@@ -29,8 +29,18 @@ def loop():
  # students = ["Norville", "Fred", "Velma", "Daphne"]
   dict = {"key1" : "a", "key2" :"b", "key3" : "c"}
 
-  for item in dict:
-    print(item)
+  #for item in dict.items():
+  # print(item)
+  for a,b in dict.items():
+    print(a,b)
+
+
+  # whike liips
+  coins = 30
+  while coins < 40:
+    print(f"i have {coins} coins")
+    coins += 1
+
 
   
   
@@ -41,7 +51,7 @@ def loop():
   list_numbers = [1,5,8,7,6,8,2,5,2,6,4,8,5,9,8,3,5,4,2,5,6,4]
   # sum_numbers = 
   
-  
+
   
   
   
